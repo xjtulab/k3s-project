@@ -6,7 +6,7 @@
 
 这张图表展示了包含所有相互关联组件的 Kubernetes 集群。
 
-![img](images/k8s_arch.png)
+![img](../images/k8s_arch.png)
 
 每一个节点需要安装一个kubelet和k-proxy。
 
@@ -69,7 +69,7 @@ master和worker的ip为
 
 worker1节点通过路由器界面查看:
 
-![img](images/workerip.png)
+![img](../images/workerip.png)
 
 
 
@@ -106,7 +106,7 @@ systemctl stop k3s
    kubectl get nodes
    ```
    
-   ![img](images/nodes1.png)
+   ![img](../images/nodes1.png)
    
    可以看到当前server一共注册了两个节点，只有一个master在Ready状态。查看master的token为:
    
@@ -143,7 +143,7 @@ systemctl stop k3s
    
    在master查看节点:
    
-   ![img](images/nodes2.png)
+   ![img](../images/nodes2.png)
    
    
 
